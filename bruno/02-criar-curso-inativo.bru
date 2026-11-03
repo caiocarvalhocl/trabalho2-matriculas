@@ -1,0 +1,20 @@
+meta {
+  name: Criar curso inativo
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/cursos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Curso descontinuado",
+    "cargaHoraria": 20,
+    "categoria": "Tecnologia",
+    "ativo": false
+  }
+}

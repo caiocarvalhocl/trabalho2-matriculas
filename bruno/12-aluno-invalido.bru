@@ -1,0 +1,19 @@
+meta {
+  name: Criar aluno invalido (400)
+  type: http
+  seq: 12
+}
+
+post {
+  url: http://localhost:8080/alunos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "",
+    "email": "nao-e-email",
+    "idade": 15
+  }
+}

@@ -1,0 +1,20 @@
+meta {
+  name: Criar aluno
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://localhost:8080/alunos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Ana Souza",
+    "email": "ana@email.com",
+    "idade": 20,
+    "telefone": "41999999999"
+  }
+}

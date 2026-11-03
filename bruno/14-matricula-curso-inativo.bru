@@ -1,0 +1,19 @@
+meta {
+  name: Matricula em curso inativo (422)
+  type: http
+  seq: 14
+}
+
+post {
+  url: http://localhost:8080/matriculas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "alunoId": 1,
+    "cursoId": 2,
+    "dataMatricula": "2026-03-01"
+  }
+}

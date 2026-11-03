@@ -1,0 +1,10 @@
+meta {
+  name: Listar alunos (paginado)
+  type: http
+  seq: 9
+}
+
+get {
+  url: http://localhost:8080/alunos?page=0&size=5&sort=nome,asc
+  auth: none
+}

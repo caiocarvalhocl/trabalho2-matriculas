@@ -1,0 +1,17 @@
+meta {
+  name: Atualizar status da matricula
+  type: http
+  seq: 17
+}
+
+put {
+  url: http://localhost:8080/matriculas/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "status": "CONCLUIDA"
+  }
+}

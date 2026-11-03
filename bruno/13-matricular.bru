@@ -1,0 +1,19 @@
+meta {
+  name: Realizar matricula
+  type: http
+  seq: 13
+}
+
+post {
+  url: http://localhost:8080/matriculas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "alunoId": 1,
+    "cursoId": 1,
+    "dataMatricula": "2026-03-01"
+  }
+}

@@ -1,0 +1,20 @@
+meta {
+  name: Atualizar aluno
+  type: http
+  seq: 11
+}
+
+put {
+  url: http://localhost:8080/alunos/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Ana Souza Lima",
+    "email": "ana@email.com",
+    "idade": 21,
+    "telefone": "41988888888"
+  }
+}

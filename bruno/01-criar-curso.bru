@@ -1,0 +1,20 @@
+meta {
+  name: Criar curso
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/cursos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Spring Boot",
+    "cargaHoraria": 40,
+    "categoria": "Tecnologia",
+    "ativo": true
+  }
+}

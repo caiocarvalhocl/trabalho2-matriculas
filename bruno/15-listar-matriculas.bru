@@ -1,0 +1,10 @@
+meta {
+  name: Listar matriculas (paginado)
+  type: http
+  seq: 15
+}
+
+get {
+  url: http://localhost:8080/matriculas?page=0&size=5&sort=dataMatricula,desc
+  auth: none
+}

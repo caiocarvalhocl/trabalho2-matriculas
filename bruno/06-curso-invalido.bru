@@ -1,0 +1,19 @@
+meta {
+  name: Criar curso invalido (400)
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:8080/cursos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "abc",
+    "cargaHoraria": 0,
+    "categoria": ""
+  }
+}
