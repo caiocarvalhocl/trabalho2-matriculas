@@ -1,6 +1,6 @@
 # Trabalho Prático 2 - API de Cursos e Matrículas
 
-Aluno: Caio Carvalho (UTFPR)
+Alunos: Caio Carvalho e Pedro Kuhn (UTFPR)
 
 ## Descrição
 
